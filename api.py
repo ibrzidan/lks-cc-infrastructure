@@ -1,5 +1,4 @@
 from flask import Flask, request, redirect, url_for, session, jsonify, render_template, Response
-import sqlite3
 from time import sleep
 from datetime import datetime, timedelta
 import psycopg2
